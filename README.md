@@ -6,13 +6,13 @@ Dreamhack 워게임의 코드 분석과 풀이 과정을 정리한 저장소입�
 
 ## 정리 현황
 
-2026-11-16 기준, 저장소에 등록된 Markdown 문서 수입니다. 문제명과 등급은 현재 파일 경로를 기준으로 정리했습니다.
+2026-11-17 기준, 저장소에 등록된 Markdown 문서 수입니다. 문제명과 등급은 현재 파일 경로를 기준으로 정리했습니다.
 
 | 분야 | B4 | B3 | B2 | B1 | S4 | S3 | 합계 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| [WEB](WEB/) | 4 | 2 | 6 | 3 | 2 | 2 | **19** |
+| [WEB](WEB/) | 4 | 2 | 7 | 3 | 2 | 2 | **20** |
 | [PWN](PWN/) | — | 1 | 1 | 1 | — | — | **3** |
-| **전체** | **4** | **3** | **7** | **4** | **2** | **2** | **22** |
+| **전체** | **4** | **3** | **8** | **4** | **2** | **2** | **23** |
 
 `B`는 Bronze, `S`는 Silver를 뜻합니다. 아래 목록에는 상세 풀이와 짧은 결과 메모가 함께 포함되어 있습니다. NoSQL 문제는 현재 목록에 포함되어 있지 않습니다.
 
@@ -42,6 +42,7 @@ Dreamhack 워게임의 코드 분석과 풀이 과정을 정리한 저장소입�
 | [ImageBox](WEB/B2/B2%20ImageBox.md) | 이미지 검사 조건 오류와 업로드된 PHP 실행 |
 | [Simple Note Manager](WEB/B2/B2%20Simple%20Note%20Manager.md) | 백업 쿠키를 통한 OS Command Injection |
 | [Tomcat Manager](WEB/B2/B2%20Tomcat%20Manager.md) | Path Traversal, 관리자 설정 확인과 WAR 배포 |
+| [Tomcat Manager (ProcessBuilder 실습)](WEB/B2/B2%20Tomcat%20Manager%20-%20ProcessBuilder.md) | `flagapp.war`의 `flag.jsp`가 `ProcessBuilder`로 `/flag`를 실행해 FLAG를 획득하는 과정과 404 오류 해결 |
 | [XSS-1](WEB/B2/B2%20XSS-1.md) | Reflected XSS와 봇의 FLAG 쿠키를 `/memo`로 전달하는 과정 |
 | [access-log](WEB/B2/B2%20access-log.md) | 십진수 변환 결과를 기록한 짧은 메모 |
 
